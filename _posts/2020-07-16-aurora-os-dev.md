@@ -3,6 +3,7 @@ title: Aurora OS developers included a memcpy fix in Glibc
 layout: post
 tags: mobile
 permalink: /aurora-os-developers-included-memcpy-fix-in-glibc/
+image: https://i.imgur.com/VeO8EMR.png
 ---
 
 The developers of the AuroraOS mobile operating system (a fork of the Sailfish operating system, developed by the Open Mobile Platform company) shared a solution for a vulnerability they detected in memcpy. The removal of the critical vulnerability ([CVE-2020-6096](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1019)) in Glibc, which manifests itself only in the ARMv7 platform.
