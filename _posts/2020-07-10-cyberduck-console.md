@@ -46,9 +46,8 @@ $ sudo apt-get install duck
 
 All commands for operating with cloud storage has the following form:
 
-<pre>
-$ duck -<argument> swift://<username>@auth.domainname.com/<object path> -p<password>
-</pre>
+
+- $ duck -<argument> swift://<username>@auth.domainname.com/<object path> -p<password>
 
 
 After accepting the command program will ask to write the name of user whose account is being used. You can switch off dialogue mode by the option –q.
@@ -56,7 +55,7 @@ After accepting the command program will ask to write the name of user whose acc
 Getting a file list in a container
 You can get a file list by the option –l or --list:
 
-> $ duck -l swift://username@auth.domain.com/<container path> -p <password>
+- $ duck -l swift://username@auth.domain.com/<container path> -p <password>
 
 > Listing directory images…
 > 1.jpg
