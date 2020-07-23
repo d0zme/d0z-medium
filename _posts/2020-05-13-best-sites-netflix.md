@@ -4,6 +4,7 @@ layout: post
 ---
 
 I’m a hardcore netflix user, but one gripe I have with the service is browsing their site. Luckily there are many sites out there that aim to fix this. To make things easier for other Netflix users I’ve complied a list below of the best sites I use to get the most out of netflix. Feel free to suggest any in the comments and I’ll do my best to keep the list up-to-date.
+
 Unlocking Netflix Country Catalogues
 
 - Netflix Around The World
@@ -33,7 +34,7 @@ This wouldn’t be a Netlifx hack list if we didn’t mention one of our own gui
 
 ## Replacement Netflix Frontends
 
-Instant Watcher
+- Instant Watcher
 
 There is a reason why there is only one site in this category and that’s because many times I’ve bypassed entirely going to the Netflix website and used Instant Watcher instead. It’s one of the more popular sites in this list and has become a household name amongst the power users.
 
@@ -50,7 +51,7 @@ A film service catalogue aggregator that also pleases the movie buffs. I always 
 - Watchily
 
 New site, great design for large screen browsing and is updated regularly.
-    
+
 - Can I stream It
 
 Slightly overwhelming experience, but is a useful aggregator once you get your head round the numerous graphic buttons shown for each film.
