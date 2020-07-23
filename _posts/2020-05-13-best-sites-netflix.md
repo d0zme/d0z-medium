@@ -1,6 +1,7 @@
 ---
 title: 10 Best Sites for Bypassing Netflix
 layout: post
+image: https://i.imgur.com/fTYHYXp.jpg
 ---
 
 I’m a hardcore netflix user, but one gripe I have with the service is browsing their site. Luckily there are many sites out there that aim to fix this. To make things easier for other Netflix users I’ve complied a list below of the best sites I use to get the most out of netflix. Feel free to suggest any in the comments and I’ll do my best to keep the list up-to-date.
