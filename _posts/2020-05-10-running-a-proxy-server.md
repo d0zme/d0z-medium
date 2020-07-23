@@ -1,6 +1,8 @@
 ---
 title: Running a Proxy Server as a Webmaster
 layout: post
+image: https://i.imgur.com/SetNsiP.jpg
+tags: proxy
 ---
 
 # Benefits of Running a Proxy
