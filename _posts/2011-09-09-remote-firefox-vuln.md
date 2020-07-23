@@ -1,0 +1,9 @@
+---
+title: Remote Firefox Vulnerabilities
+layout: post
+tags: firefox
+---
+
+[Brian Krebs at the Washington Post](https://web.archive.org/web/20150315040521/http://blog.washingtonpost.com/securityfix/2007/05/bungled_addon_updates_endanger.html) had a story about a post by Chris Soghoian who found that you can use a MITM attack to overwrite addons in Firefox. Actually, believe it or not, I was planning on releasing the exact same issue, but alas, that’s what I get for waiting. More than one person heard me say this, and I even sent Jeremiah a power point deck on this exact thing last night, and even mentioned it in passing during my OWASP talk yesterday, so I’m not just blowing smoke, but alas, Chris disclosed it first so he wins, and good for him. Chris did a good job of explaining it in gory detail too. While most addons are put on addons.mozilla.org there are quite a few that are pulled straight from http connections. There’s a great idea - let’s run arbitrary code from untrusted resources!
+
+The offenders range from big companies like Google, Yahoo, and Facebook, to security software like Netcraft’s toolbar and the Phishtank’s toolbar down to little addons like Bugmenot, and Localrodeo. If you use Firefox, it’s time to either uninstall those addons if you are at all concerned about man in the middle attacks over wireless connections. If you use a laptop and have those addons installed you are taking a big risk of complete compromise. Yes, this is nasty. Daniel Veditz said they would have expected people would have known better. This is sort of one of those things that if you don’t warn people at a minimum they won’t know to think twice. Mozilla may “block” all unsecured content. While I don’t think that’s a great idea, at least they could warn people about what they are doing. Good work by Chris - I just wish I had disclosed it first!
