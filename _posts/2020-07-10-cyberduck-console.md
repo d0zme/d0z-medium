@@ -26,8 +26,6 @@ Here is installation procedure for Ubuntu 14.04. Users of other distributions ca
 In order to install console version of Cyberduck we need to add special repository:
 <pre>
 $ echo 'deb https://s3.amazonaws.com/repo.deb.cyberduck.io nightly main'>/etc/apt/sources.list
-</pre>
-<pre>
 $ echo 'deb https://s3.amazonaws.com/repo.deb.cyberduck.io stable main'>/etc/apt/sources.list
 </pre>
 
@@ -38,10 +36,12 @@ $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FE7097963FEFBE72
 
 
 And launch the commands:
+
 <pre>
 $ sudo apt-get update
 $ sudo apt-get install duck
 </pre>
+
 ## Common operations with cloud storage
 
 All commands for operating with cloud storage has the following form:
