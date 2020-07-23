@@ -12,8 +12,9 @@ I had worked in small company, and very often I do some stuff, related to system
 
 ## I had two options:
 
-tar – zips all files and doesn't save MBR -> backup will weight about 1.5GB
-dd – makes a full copy of the server -> with weight about 490GB.
+- tar – zips all files and doesn't save MBR -> backup will weight about 1.5GB
+- dd – makes a full copy of the server -> with weight about 490GB.
+
 For me it was easier to do tar, since the deploy and restore will be smaller. Also, in this case it's possible to write down the backup even on a flash driver.
 
 ## Here is the plan to do that:
@@ -24,22 +25,31 @@ For me it was easier to do tar, since the deploy and restore will be smaller. Al
 - MBR creation
 
 ## Testing
+
 1. Backup creation
 Loading from a live flash drive.
 
 Switching to root:
-
-> sudo su
+<pre>
+sudo su
+</pre>
 Mounting the section, which will be archived
 
-> mount -o ro /dev/sda1 /mnt
+<pre>
+mount -o ro /dev/sda1 /mnt
+</pre>
+
 Mounting the flash drive to read/write:
+<pre>
+mount -o remount,rw /dev/sdb1 /lib/live/mount/medium
+</pre>
 
-> mount -o remount,rw /dev/sdb1 /lib/live/mount/medium
 Everything is ready to create archives:
+<pre>
+ar -cvzpf /lib/live/mount/medium/backupYYYYMMDD.tgz --exclude=/mnt/var/spool/asterisk/monitor --exclude=/mnt/var/spool/asterisk/backup /mnt/
+</pre>
 
-> tar -cvzpf /lib/live/mount/medium/backupYYYYMMDD.tgz --exclude=/mnt/var/spool/asterisk/monitor --exclude=/mnt/var/spool/asterisk/backup /mnt/
-> Parameters: c — create, v — process information, z —gzip archiving, p — data about owners, f — writing to the file, -/mnt/ — catalog, which should be archived.
+Parameters: c — create, v — process information, z —gzip archiving, p — data about owners, f — writing to the file, -/mnt/ — catalog, which should be archived.
 
 The process takes about 7-10 minutes.
 
