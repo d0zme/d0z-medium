@@ -5,7 +5,7 @@ logo: ''
 favicon: ''
 baseurl: ''
 disqus: ''
-email: 'admin@jeobox.com'
+email: 'admin@d0z.me'
 mailchimp-list: ''
 
 include: ["_pages"]
@@ -20,11 +20,11 @@ plugins:
   
 authors:
     sal:
-      name:           JEO
-      site:           https://www.jeobox.com
+      name:           D0z
+      site:           https://d0z.me
       avatar:         
-      bio:            Always doing something different...
-      email:          admin@jeobox.com
+      bio:            Always hackin'
+      email:          admin@d0z.me
       twitter:        
  
 # Defaults
