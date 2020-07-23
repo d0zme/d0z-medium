@@ -64,8 +64,9 @@ Short description of every command you can find in qga/qapi-schema.josn file in 
 Well, we are interested in following commands: guest-fsfreeze-freeze and guest-fsfreeze-thaw. First of them “freezes" guest file system, second – “unfreezes" it. Command (to be honest, it's IOCTL) fsfreeze is not a QEMU feature but it is a capability of guest's virtual file system. So that, you are able to freeze file system not only in virtual environment but on real hardware, too. It is enough to use fsfreeze utility from util-linux package. Its manual says that Ext3/4, ReiserFS, JFS, XFS are supported, but during the experiment it freeze Btrfs as well. Between processing flow of records and freezing itself kernel calls sync() (file fs/super.c, line 1329), so data integrity is secure. At all, kernel needs freeze FS in order to get complete snapshot of VLM-volumes.
 
 So far we know that we call guest-fsfreeze-freeze function by QEMU guest agent to take complete snapshot. However, if we use Libvirt, we can give virsh shell parameter –quiesce, which will call guest-fsfreeze-freeze while creating the snapshot:
-
+<pre>
 virsh snapshot-create-as myvm snapshot1 "snapshot1 description" --disk-only --atomic –quiesce.
+</pre>
 
 But if we use Proxmox (pvetest branch) or Openstack, we can't do something similar. That's why you have to change the source code to automate calling guest-fsfreeze-freeze function.
 
@@ -73,6 +74,7 @@ For example, we have found a way to freeze guest FS before taking the snapshot. 
 
 For MySQL server you can easily write this script:
 
+<pre>
 #!/bin/bash 
 USER="<Пользователь>" 
 PASSWORD="<Пароль>" 
@@ -91,9 +93,13 @@ exit 1
 ;; 
 esac 
 exit 1
-But it wouldn't work as locking from the base will be removed after this command:
+</pre>
 
+But it wouldn't work as locking from the base will be removed after this command:
+<pre>
 mysql -u $USER -p$PASSWORD -e "FLUSH TABLES WITH READ LOCK"
+</pre>
+
 because all MySQL blocks work only when user made them is in system. If you want to do the proper backup, you have to write some additional service (in Python, for example), which would open MySQL base , make locking after freeze command, and then keep the base open and wait for the command thaw.
 
 And what if we have Windows as a guest OS? We should mention that for Windows and MS SQL QUEM guest agent automatically calls an appropriate VSS-function, and VSS informs all subscribes that backup will start soon.
