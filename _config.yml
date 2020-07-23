@@ -2,7 +2,7 @@
 name: 'D0z'
 description: 'Yet another cybersecurity blog.'
 logo: ''
-favicon: ''
+favicon: 'assets/favicon.ico'
 baseurl: ''
 disqus: ''
 email: 'admin@d0z.me'
