@@ -20,13 +20,13 @@ There are 69 teams from all over the world who have applied for the competition.
 
 So, candidates for the new postquantum digital signature standard:
 
-CRYSTALS-DILITHIUM - Is a representative of cryptography on grids. It's based on the intermittent Fiat-Shamir scheme. Cryptanalysis is reduced to solving Module-LWE and Module-SIS problems. Has good productivity and can be effectively realized on low resource devices. NIST asked the authors to add a set of system-wide parameters for Level 5 security.
+**CRYSTALS-DILITHIUM** - Is a representative of cryptography on grids. It's based on the intermittent Fiat-Shamir scheme. Cryptanalysis is reduced to solving Module-LWE and Module-SIS problems. Has good productivity and can be effectively realized on low resource devices. NIST asked the authors to add a set of system-wide parameters for Level 5 security.
 
-FALCON - Also a representative of cryptography on grids. But it is based on the GPV framework. Cryptanalysis is reduced to the task of SIS on NTRU grids. The main disadvantage of this scheme is a complex software and hardware implementation. The scheme uses calculations over floating point numbers, which greatly complicates both the analysis of resistance to attacks through third-party channels, and makes difficult to implement for low-resource devices.
+**FALCON** - Also a representative of cryptography on grids. But it is based on the GPV framework. Cryptanalysis is reduced to the task of SIS on NTRU grids. The main disadvantage of this scheme is a complex software and hardware implementation. The scheme uses calculations over floating point numbers, which greatly complicates both the analysis of resistance to attacks through third-party channels, and makes difficult to implement for low-resource devices.
 
-Rainbow - Is a precursor of cryptography on multi-variant transformations. It is based on the UOV scheme. The main advantage is the size of the digital signature. But because of the large size of the key this scheme is recommended to use only for specific tasks where the size of the keys is not critical.
+**Rainbow** - Is a precursor of cryptography on multi-variant transformations. It is based on the UOV scheme. The main advantage is the size of the digital signature. But because of the large size of the key this scheme is recommended to use only for specific tasks where the size of the keys is not critical.
 
-NIST also stated that at least one of the schemes CRYSTALS-DILITHIUM and FALCON will be standardized. Thus, cryptographic lattice-based schemes are likely to be used for digital signatures in the future. And for more specific Rainbow tasks.
+NIST also stated that **at least one of the schemes CRYSTALS-DILITHIUM and FALCON will be standardized**. Thus, cryptographic lattice-based schemes are likely to be used for digital signatures in the future. And for more specific Rainbow tasks.
 
 For asymmetric encryption, we've moved into phase three:
 
@@ -46,21 +46,21 @@ In general, the situation is similar - for general use, lattice-based schemes ar
 
 NIST also selected 8 alternative schemes that were not included in the final, but are promising.
 
-
 Among the digital signature schemes:
 
 
-SPHINCS+ and Picnic are schemes based on symmetric cryptoprimitives. Cryptanalysis of SPHINCS+ comes down to the persistence of hash functions, while Picnic comes down to NIZK and block ciphers. These schemes are quite new and poorly researched. But their main drawback is still their huge signature size, which makes them inapplicable for many tasks.
-GeMSS - Similar to Rainbow, but based on HFE instead of UOV. It has a larger key size and a slower signature process. Selected as an alternative in case the Rainbow is vulnerable.
+**SPHINCS+ and Picnic** are schemes based on symmetric cryptoprimitives. Cryptanalysis of SPHINCS+ comes down to the persistence of hash functions, while Picnic comes down to NIZK and block ciphers. These schemes are quite new and poorly researched. But their main drawback is still their huge signature size, which makes them inapplicable for many tasks.
+
+**GeMSS** - Similar to Rainbow, but based on HFE instead of UOV. It has a larger key size and a slower signature process. Selected as an alternative in case the Rainbow is vulnerable.
 
 Among the asymmetric encryption:
 
 
-- BIKE - Is a schema on error correction codes. Requires a more detailed security investigation.
-- FrodoKEM - Is a representative of cryptography on grids. Cryptanalysis comes down to the LWE problem, which is more studied than Module-LWE (and other varieties). It has too slow algorithms шифрования\расшифрования.
-- HQC - Is a scheme on error correction codes. It is based on quasi-cyclic codes. Has too slow algorithms шифрования\расшифрования.
-- NTRU Prime - Is a representative of cryptography on grids. It has good protection against algebraic attacks.
-- SIKE - Is the only scheme (among those submitted to the contest) that is based on elliptic curvature curves. Requires more detailed study. 
+- **BIKE** - Is a schema on error correction codes. Requires a more detailed security investigation.
+- **FrodoKEM** - Is a representative of cryptography on grids. Cryptanalysis comes down to the LWE problem, which is more studied than Module-LWE (and other varieties). It has too slow algorithms шифрования\расшифрования.
+- **HQC** - Is a scheme on error correction codes. It is based on quasi-cyclic codes. Has too slow algorithms шифрования\расшифрования.
+- **NTRU Prime** - Is a representative of cryptography on grids. It has good protection against algebraic attacks.
+- **SIKE** - Is the only scheme (among those submitted to the contest) that is based on elliptic curvature curves. Requires more detailed study. 
 
 ## Summary
 
