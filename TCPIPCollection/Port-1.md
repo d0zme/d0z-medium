@@ -4,7 +4,7 @@ layout: post
 permalink: /port-1
 ---
 
-### What it likely is: 1/tcp tcpmux TCP-Multiplexer 
+Port 1 over TCP is likely the TCPMUX TCP-Multiplexer 
 
 It is as decribed in the original RFC
 
