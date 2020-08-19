@@ -1,6 +1,6 @@
 ---
 title: What is Port 1?
-layout: special-post
+layout: post
 permalink: /port-1
 ---
 
