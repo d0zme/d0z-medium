@@ -4,7 +4,7 @@ layout: post
 permalink: /port-5
 ---
 
-Port 5 tcp,udp on your network is likely: **Remote Job Entry (official)** (rje)
+If you are seeing Port 5 via tcp or udp on your network, it is likely: **Remote Job Entry (official)** (rje)
 
 What it could also be: Yoyo trojan virus (tcp)
 
