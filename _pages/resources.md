@@ -6,6 +6,7 @@ permalink: /resources
 
 ## Networking Resources:
 - [TCP/IP Ports](https://d0z.me/TCP-IP-Ports/)
+- [Block shady domains in your hosts file](https://d0z.me/block-malware-trackers-and-shady-websites)
 
 ## Useful Old Articles:
 - [Want to learn C++?](https://d0z.me/learning-cpp/)
