@@ -5,6 +5,8 @@ image: https://i.imgur.com/8fWgyi2.png
 permalink: /invidious-alternative-to-youtube
 ---
 
+**Update**: The Invidio.us website will soon be shutting down. We recommend using [Yewtu.be](https://yewtu.be) as an alternative, or creating your own instance using the instructions at the end of this article.
+
 Invidious is an alternative front-end to YouTube that doesn't use the official YouTube API. Instead, it parses the YouTube site's source code to get the necessary information, similarly as projects like youtube-dl and NewPipe.
 
 At the same time, it processes most user requests through the server where it is installed, which adds another layer of privacy for uers. The project code is written in the Crystal programming language, uses the DBMS PostgreSQL and is distributed under the AGPLv3+ license.
