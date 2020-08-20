@@ -1,6 +1,7 @@
 ---
 Title: Resources
 layout: page
+permalink: /resources
 ---
 
 Networking Resources:
