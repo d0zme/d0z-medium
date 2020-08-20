@@ -4,7 +4,7 @@ layout: post
 permalink: /port-1
 ---
 
-Port 1 over TCP is likely the TCPMUX TCP-Multiplexer 
+If you are seeing Port 1 over TCP on your network, it is likely the **TCPMUX TCP-Multiplexer**
 
 It is as decribed in the original RFC
 
