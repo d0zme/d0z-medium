@@ -6,7 +6,7 @@ permalink: /TCP-IP-Ports/
 
 ## Common Ports
 - [Port 1](https://d0z.me/port-1)
-- Port 5
+- [Port 5](https://d0z.me/port-5)
 - Port 7
 - Port 9
 - Port 11
