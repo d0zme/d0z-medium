@@ -4,7 +4,7 @@ layout: page
 permalink: /resources
 ---
 
-Networking Resources:
+## Networking Resources:
 - [TCP/IP Ports](https://d0z.me/TCP-IP-Ports/)
 
 ## Useful Old Articles:
