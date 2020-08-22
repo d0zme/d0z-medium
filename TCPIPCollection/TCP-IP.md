@@ -8,7 +8,7 @@ permalink: /TCP-IP-Ports/
 - [Port 1](https://d0z.me/port-1)
 - [Port 5](https://d0z.me/port-5)
 - [Port 7](https://d0z.me/port-7)
-- Port 9
+- [Port 9](https://d0z.me/port-9)
 - Port 11
 - Port 13
 - Port 17
