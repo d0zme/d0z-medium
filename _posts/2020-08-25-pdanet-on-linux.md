@@ -45,16 +45,16 @@ And be sure to check **Use this proxy server for all protocols**
 On a Debian-based distro, you can install updates with APT by setting up your proxy settings.
 
 <pre>
-  sudo nano /etc/apt/apt.conf
+  sudo nano /etc/apt/apt.conf.d/proxy.conf
 </pre>
 
-Add this line to your **/etc/apt/apt.conf** file:
+Add this line to your **/etc/apt/apt.conf.d/proxy.conf** file:
 
 <pre>
   Acquire::http::Proxy "192.168.49.1:8000";
 </pre>
 
-Save the **apt.conf** file. 
+Save the **proxy.conf** file. 
 
 ## Proxychains with PDAnet
 
