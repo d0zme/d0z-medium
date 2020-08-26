@@ -36,7 +36,7 @@ If you only need to use your web browser, simply set your proxy settings to **19
   HTTP Proxy: 192.168.49.1 
 
   Port: 8000
-<pre>
+</pre>
 
 And be sure to check **Use this proxy server for all protocols**
 
