@@ -16,7 +16,7 @@ PDAnet is available through the Play Store, App Store, so you it's pretty straig
 
 Open up the app, and Click the checkbox for **"WiFi Direct Hotspot (new!)"** to create an access point.
 
-You should then see blue highlighted text at the top. Take note of the **Name** and **Password:** fields as they are always randomly generated so you will have to manually type them in each time.
+You should then see blue highlighted text at the top. Take note of the **Name** and **Password** fields as they are always randomly generated so you will have to manually type them in each time.
 
 **I have only tested this with Android, but it's possibly the same with the iOS, Windows Phone, or Blackberry versions of the app.**
 
@@ -32,9 +32,11 @@ If you only need to use your web browser, simply set your proxy settings to **19
 
 **In Firefox**, go to **Preferences -> Network Proxy -> Settings**, and fill out your **Manual Proxy** settings to:
 
+<pre>
   HTTP Proxy: 192.168.49.1 
 
   Port: 8000
+<pre>
 
 And be sure to check **Use this proxy server for all protocols**
 
@@ -42,13 +44,17 @@ And be sure to check **Use this proxy server for all protocols**
 
 On a Debian-based distro, you can install updates with APT by setting up your proxy settings.
 
+<pre>
   sudo nano /etc/apt/apt.conf
+</pre>
 
-Add this line to your /etc/apt/apt.conf file:
+Add this line to your **/etc/apt/apt.conf** file:
 
+<pre>
   Acquire::http::Proxy "192.168.49.1:8000";
+</pre>
 
-Save the apt.conf file. 
+Save the **apt.conf** file. 
 
 ## Proxychains with PDAnet
 
@@ -56,10 +62,13 @@ You may force a program to use your PDA proxy with proxychains.
 
 Add your servers to the end of **proxychains.conf**, removing any other servers that happen to be in the file:
 
+<pre>
   [ProxyList]
   https 192.168.49.1 8000
+</pre>
 
 ## Wrapping up
 
 **PDAnet** is a a nifty tool for travelers like me, but the trial version has the the annoying part of disconnecting you every 15 minutes. Unless you only need brief, sporadic tethering sessions, it's entirely worth the $15 license.
+
 Also, **please don't abuse your connection** with torrents, as you never know what other traffic shaping methods your carrier will hail down upon you.
