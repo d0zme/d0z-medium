@@ -1,7 +1,7 @@
 ---
 title: F5 Networks asks the court to dismiss claim against Nginx
 layout: post
-image: https://i.imgur.com/NS6zSK9.png
+image: https://i.imgur.com/mnAcjf5.png
 permalink: /f5-networks-claims-against-nginx
 ---
 
