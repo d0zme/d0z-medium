@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi OS makes the jump to Linux 5.4
 layout: post
-image:
+image: https://i.imgur.com/dT0XkZu.jpg
 tags: raspberrypi
 ---
 
