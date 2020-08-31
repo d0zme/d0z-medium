@@ -18,3 +18,5 @@ The most important new features:
 - Adobe Flash Player 32.0.0.414, the latest version.
 - Italian has been added to PIXEL's own graphic environment.
 - The Chromium user feedback survey has been removed.
+
+*See also: [Make your Raspberry Pi 4 Much Faster](https://d0z.me/raspberry-pi-4-faster/)*
