@@ -1,7 +1,7 @@
 ---
 title: Fish Shell, a smart alternative to Bash for GNU/Linux
 layout: post
-image: https://i.imgur.com/MRSbCnb.png
+image: https://i.imgur.com/7ZTtKwe.jpg
 permalink: /fish-shell-linux
 ---
 
