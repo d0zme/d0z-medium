@@ -8,59 +8,39 @@ pemalink: /what-is-managed-cloud-hosting
 
 If you're reading this blog, you probably already have an idea what hosting or web hosting is. [Managed cloud hosting](https://www.temok.com/managed-amazon-cloud-hosting) is an entirely different beast to comprehend.
 
-## Let's remember the basic concepts: hosting and cloud
+## A Clear Description of Cloud Hosting
 
-Let's start at the beginning by remembering what hosting is: a service offered to website owners so that they can store all kinds of files (such as images or videos) over the Internet.
+One of the most popular trends in the web hosting industry today is cloud or cloud hosting. Simply put, a "cloud" in this context is a group of computers that are connected to each other via a network and work together to provide hosting services.
 
-That is, we pay a hosting provider (such as SiteGround) to host our website. Until very recently, hosting was hosted on physical servers, and still is, but new technologies have taken a step forward with the emergence of "the cloud", what we know as cloud.
+This means that the different services of a single hosted website can be drawn from the computing power of a network of more than one server in the cloud. In fact, the cloud can be thought of as a cloud server composed of the computing power of several servers in a network.
 
-"The cloud" is still a storage space, but in this case virtual. With cloud computing, or cloud storage, we no longer need an extension of our hard drive, as was the case before. Cloud computing allows us to store our files on virtual servers without having to rely on a physical location.
+This would be opposed to the idea of having one dedicated server (or a virtual private server), in which you want everything hosted at a static location.
 
-And we can use applications, programs and other tools from any computer. This new technology is a true digital revolution for many companies, which are migrating their files to the cloud, reducing costs by not having to occupy a certain physical space.
+When you have **“managed cloud hosting”**, you are renting out distributed computing resources from a provider, and they are in charge of uptime & security. Billing arrangements are made monthly, as opposed to renting out hourly slices, and the management part is left in your hands.
 
-## Cloud Hosting
+## Advantages of Cloud Hosting
 
-Cloud hosting refers to servers based on cloud computing technology. In simple words, it is the hosting of websites on virtual servers, so you no longer have to depend on a computer or a physical server. 
+Cloud computing or cloud computing is a radical change from more traditional hosting options such as shared and dedicated hosting options. It also has some advantages that set it apart from these other hosting choices. On the one hand, site owners tend to get what they pay for with cloud hosting. 
 
-The good news is that the user, or customer, only has to pay for what they actually use because there is no need to invest in hardware.
+This method of payment is sometimes called "pay as you go". If a company uses only 200 Gigabytes of storage with a cloud package, that company will only pay for that 200 GB. With more traditional hosting options, that same company would probably have to pay for more space than that, regardless of whether the extra space was used or not.
 
-The memory, storage and processing resources work differently than a traditional hosting with cloud hosting. With this new technology your space on the Internet does not depend on a server, but on a network of "nodes", that is, servers connected to "the cloud".
+Cloud hosting also offers site owners scalability. The traffic of many websites can suddenly increase rapidly. If a site suddenly needs more space or bandwidth, cloud hosting allows that site to grow naturally using more resources in the cloud. In comparison, performing such an expansion with traditional web hosting methods can be a very expensive and laborious process.
 
-## Is a cloud server the same as a Virtual Private Server?
+## Disadvantages of Cloud Hosting
 
-No, although it can be confusing. VPS servers correspond to pre-Cloud or "cloud" technology.  A Virtual Private Server (VPS) is used when a shared server has become too small for us, for example because of the large number of visits we receive.
+Unfortunately, there are some disadvantages to cloud hosting that website owners should take into account. Probably the most important of these is the fact that cloud hosting involves certain security risks that do not affect websites that use shared hosting or dedicated servers.
 
-Unlike the shared server, the VPS server assigns resources exclusively to one user or company, apart from the rest of the installations on the server. By not sharing resources, we will not be affected in the performance if there is any problem.
+This is due to the fact that information is not stored locally on a server in one place. Instead, this information may be transmitted regularly between multiple servers. This movement of data can make your data vulnerable to hackers. Cloud hosting companies can use security and encryption methods to negate the possibility of this information being compromised, but the risk remains.
 
-The problem with a VPS server is that it can give hardware failures, among others, while the cloud hosting or cloud server is independent of the hardware and if there was any failure the user could always migrate his data to another node.
+## Wrapping Up
 
-Cloud hosting uses a large number of servers which are distributed among various data centers located in different places. Another disadvantage of the VPS server is that technical knowledge is required, which is not the case with a shared server.
+If you choose to go with cloud hosting, there are three things you should consider when looking for the best cloud hosting provider. First of all, you should consider whether what you are being charged for the scalability option of the package is actually a good deal.
 
-## Advantages of cloud hosting
----
+You should only pay for what you expect your website to consume, both during peak and off-peak hours. If you end up being billed more than you would be with a shared or dedicated hosting plan, you should look for a more cost-effective host.
 
-### Saving money
+Secondly, you should look for quality web tools. Although scalability is important, if you are unable to do anything with your account, it will always be a waste of money. Things to check are control panels with multiple options, site creation tools, and e-commerce modules.
 
-The best thing about a cloud server is the tremendous savings it provides, since we only pay for what we use and we will be aware of that when we see the bottom line. On the other hand, if we opt for a traditional hosting we will have to pay a fixed amount, whether we use all the resources or not.
+Finally, make sure you take a cloud hosting package that comes with quality technical support. Although cloud hosting has many advantages, you may face technical difficulties, as with any other type of hosting plan. Make sure you are able to communicate with technical support 24 hours a day to ensure that your site can avoid significant downtime.
 
-We also avoid purchasing devices and infrastructure with the aim of acquiring resources that we do not consume in the end. Another aspect not less important is that we save costs in electricity consumption or personnel hiring.
-
-### More availability
-
-Cloud servers offer the ability to access the number of servers we need quickly and efficiently.  We can, for example, expand storage capacity automatically, without having to change plans or be obliged to consult with the technical support of a hosting service.
-
-### Flexibility or scalability of resources
-
-We do not need to make new equipment acquisitions, for example. We can increase or decrease the resources we need at any given time and there is no need for unnecessary waiting. Since we pay only for what we use, we save on costs.
-
-### Easy to use control panel
-
-Most cloud hosting service providers offer easy-to-use management or control panels. We can schedule backups with a single click, when the service company is not taking care of maintenance and updates. The management of our panel, in any case, is very simple and similar to that of a traditional hosting, such as cPanel.
-
-### More stability
-
-Since we do not have to fear hardware failures by not depending on a physical server, we have greater availability, a fundamental aspect for many companies. This guarantees us a constant online presence, which we call uptime.
-
-The traditional hosting services offer an average of 99% because there are necessary interruptions of the server, such as maintenance work or updating a hard disk, but with a cloud hosting we will have an uptime of 99.9%. This advantage is due to the fact that the operating system automatically creates a replica of the failed server.
 
 *See also: [Managing your cloud storage with Cyberduck Console](https://d0z.me/cyberduck-console/)*
