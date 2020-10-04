@@ -61,3 +61,5 @@ Most cloud hosting service providers offer easy-to-use management or control pan
 Since we do not have to fear hardware failures by not depending on a physical server, we have greater availability, a fundamental aspect for many companies. This guarantees us a constant online presence, which we call uptime.
 
 The traditional hosting services offer an average of 99% because there are necessary interruptions of the server, such as maintenance work or updating a hard disk, but with a cloud hosting we will have an uptime of 99.9%. This advantage is due to the fact that the operating system automatically creates a replica of the failed server.
+
+*See also: [Managing your cloud storage with Cyberduck Console](https://d0z.me/cyberduck-console/)*
