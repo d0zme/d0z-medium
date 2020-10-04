@@ -1,3 +1,11 @@
+---
+title: What is managed cloud hosting?
+layout: post
+image: https://i.imgur.com/nc5crEv.jpg
+tags: hosting
+pemalink: /what-is-managed-cloud-hosting
+---
+
 If you're reading this blog, you probably already have an idea what hosting or web hosting is. [Managed Cloud hosting](https://www.temok.com/managed-amazon-cloud-hosting), on the other hand, is an entirely different beast altogether.
 
 ## Let's remember the basic concepts: hosting and cloud
@@ -7,14 +15,6 @@ Let's start at the beginning by remembering what hosting is: a service offered t
 That is, we pay a hosting provider (such as SiteGround) to host our website. Until very recently, hosting was hosted on physical servers, and still is, but new technologies have taken a step forward with the emergence of "the cloud", what we know as cloud.
 
 "The cloud" is still a storage space, but in this case virtual. With cloud computing, or cloud storage, we no longer need an extension of our hard drive, as was the case before. Cloud computing allows us to store our files on virtual servers without having to rely on a physical location.
-
----
-title: What is managed cloud hosting?
-layout: post
-image: https://i.imgur.com/nc5crEv.jpg
-tags: hosting
-pemalink: /what-is-managed-cloud-hosting
----
 
 And we can use applications, programs and other tools from any computer. This new technology is a true digital revolution for many companies, which are migrating their files to the cloud, reducing costs by not having to occupy a certain physical space.
 
