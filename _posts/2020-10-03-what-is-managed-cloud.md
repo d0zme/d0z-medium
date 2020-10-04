@@ -36,7 +36,8 @@ The problem with a VPS server is that it can give hardware failures, among other
 
 Cloud hosting uses a large number of servers which are distributed among various data centers located in different places. Another disadvantage of the VPS server is that technical knowledge is required, which is not the case with a shared server.
 
-##Advantages of cloud hosting:
+## Advantages of cloud hosting
+---
 
 ### Saving money
 
