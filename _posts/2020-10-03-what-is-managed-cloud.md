@@ -16,7 +16,7 @@ This means that the different services of a single hosted website can be drawn f
 
 This would be opposed to the idea of having one dedicated server (or a virtual private server), in which you want everything hosted at a static location.
 
-When you have **“managed cloud hosting”**, you are renting out distributed computing resources from a provider, and they are in charge of uptime & security. Billing arrangements are made monthly, as opposed to renting out hourly slices, and the management part is left in your hands.
+When you have **“managed cloud hosting”**, you are renting out distributed computing resources from a provider, and they are in charge of uptime & security. Billing arrangements are made monthly, as opposed to renting out hourly slices, and the management part is out of your hands.
 
 ## Advantages of Cloud Hosting
 
