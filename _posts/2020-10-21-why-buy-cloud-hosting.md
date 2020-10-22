@@ -13,7 +13,7 @@ But sometimes, the web project or website hosted on a shared hosting, becomes fa
 
 When a website is using a lot of resources, the shared hosting starts denying service to that website and the website will no longer be displayed and an error message of "not found", "503 error" or simply load forever without displaying your website will appear. This is a common problem in shared hosting that has pages with a lot of traffic. This is normal and it is expected that shared hosting behaves like this, because if it does not, other users' websites hosted on the same server will stop working, which is not fair, since other users have also paid for a part of that same shared server.
 
-## Advantages of Cloud Hosting:
+## Advantages of Managed Cloud Hosting:
 
 ### Speed
 
