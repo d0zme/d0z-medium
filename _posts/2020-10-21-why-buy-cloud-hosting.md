@@ -1,8 +1,8 @@
 ---
-title: Why buy cloud hosting?
+title: Why should you switch to cloud hosting?
 layout: post
 image: https://i.imgur.com/mSt85u6.jpg
-permalink: /why-buy-cloud-hosting
+permalink: /why-cloud-hosting
 --- 
 
 "The cloud" is a resource full of advantages for large & small enterprises alike, that's why it's being used almost everywhere in IT. Although, when you are shopping around for providers, you are met with a variety of cloud services. In particular, [managed cloud hosting](https://www.temok.com/managed-digitalocean-hosting) is a type of shared hosting for your websites or web apps. In this type of hosting a website is hosted on several servers that are connected to each other like a bunch of grapes in the same vine. This cluster of servers is called a cloud.
