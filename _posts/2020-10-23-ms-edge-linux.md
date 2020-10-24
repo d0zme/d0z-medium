@@ -14,6 +14,9 @@ As is well known, the new Microsoft Edge is based on Chromium and the similariti
 
 The highlight of Microsoft Edge is the interface, which slightly tweaks the design of the tabs and toolbar and other elements that, as you might expect, have been adapted by Microsoft to provide a unique experience. For example, Microsoft Edge has its own home page and new tab, configurable to be more or less minimalist and show only a few favorite links or a lot of news from MSN.com.
 
+![](https://i.imgur.com/UR4U0WI.png)
+*Screenshot by meterpreter.org*
+
 Microsoft Edge also has a data synchronization system linked to the Microsoft account, sidebars where to show the markers, a web capture and a function called collections that basically is a sort of visual markers organized by categories in which it is possible to save web content in the Evernote style - whole pages, fragments or images and notes - in the cloud, so it is essential to be logged in the browser to use it. And Bing as the default search engine, of course.
 
 Another feature of Microsoft Edge is that it has its own extensions store, more limited, but more curated than the Chrome Store. But if you need more extensions, no problem, because entering the Chrome Store will trigger a pop-up to enable support. In this sense it is very similar to Opera, which also allows you to customize the new tab page with news and has its own extensions.
