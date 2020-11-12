@@ -1,5 +1,5 @@
 ---
-title: Installing an alternative to Little Snitch in Linux, GUFW Firewall
+title: Installing an alternative to Little Snitch for Linux, GUFW Firewall
 layout: post
 image: https://i.imgur.com/kUHRFop.png
 tags: firewall, linux, security
