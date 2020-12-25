@@ -78,3 +78,7 @@ Add your servers to the end of **proxychains.conf**, removing any other servers 
 **PDAnet** is a a nifty tool for travelers like me, but the trial version has the the annoying part of disconnecting you every 15 minutes. Unless you only need brief, sporadic tethering sessions, it's entirely worth the $15 license.
 
 Also, **please don't abuse your connection** with torrents, as you never know what other traffic shaping methods your carrier will hail down upon you.
+
+---
+
+Article translated in: [ES](https://d0z.me/es/pdanet-linux-freebsd-unix)
