@@ -79,6 +79,3 @@ Añade tus servidores al final de **proxychains.conf**, eliminando cualquier otr
 **PDAnet** es una herramienta ingeniosa para viajeros como yo, pero la versión de prueba tiene la parte molesta de desconectarte cada 15 minutos. A menos que sólo necesites sesiones de atadura breves y esporádicas, vale la pena la licencia de 15 dólares.
 
 Además, **por favor no abuse de su conexión** con los torrentes, ya que nunca se sabe qué otros métodos de control de tráfico su compañía aérea le va a dar.
-
-
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
