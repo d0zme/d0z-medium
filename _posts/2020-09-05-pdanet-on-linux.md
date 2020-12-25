@@ -82,4 +82,4 @@ Also, **please don't abuse your connection** with torrents, as you never know wh
 
 ---
 
-Article translated in: [ES](https://d0z.me/es/pdanet-linux-freebsd-unix), [FR](https://d0z.me/fr/pdanet-linux-freebsd-unix), [DE](https://d0z.me/de/pdanet-linux-freebsd-unix), [PT](https://d0z.me/pt/pdanet-linux-freebsd-unix), JP
+Article translated in: [ES](https://d0z.me/es/pdanet-linux-freebsd-unix), [FR](https://d0z.me/fr/pdanet-linux-freebsd-unix), [DE](https://d0z.me/de/pdanet-linux-freebsd-unix), [PT](https://d0z.me/pt/pdanet-linux-freebsd-unix), [JP](https://d0z.me/jp/pdanet-linux-freebsd-unix), [CN](https://d0z.me/cn/pdanet-linux-freebsd-unix)
