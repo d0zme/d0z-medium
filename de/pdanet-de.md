@@ -79,6 +79,3 @@ Fügen Sie Ihre Server an das Ende der Datei **proxychains.conf** an und entfern
 **PDAnet** ist ein schickes Tool für Reisende wie mich, aber die Testversion hat den lästigen Teil, dass die Verbindung alle 15 Minuten unterbrochen wird. Wenn Sie nicht nur kurze, sporadische Tethering-Sitzungen brauchen, ist es die $15-Lizenz durchaus wert.
 
 Auch **bitte missbrauchen Sie Ihre Verbindung** nicht mit Torrents, da Sie nie wissen, welche anderen Traffic-Shaping-Methoden Ihr Anbieter auf Sie niederhageln wird.
-
-
-Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
