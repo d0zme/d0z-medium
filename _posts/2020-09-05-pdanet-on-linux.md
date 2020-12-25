@@ -4,6 +4,7 @@ layout: post
 image: https://i.imgur.com/wLMcNre.jpg
 permalink: /pdanet-on-linux-freebsd-unix
 ---
+
 Mobile data is getting cheaper & faster, and you probably have an offer for unlimited 4G/5G in your local area. It usually comes with a catch of severely limited data allocations for tethering, and sometimes it isn't allowed at all.
 
 [PDAnet](https://pdanet.co) is the easiest, and likely the most popular way to avoid tethering data caps. They have a nifty application for Windows & Mac OSX that allows you to tether with just a few clicks. For Linux, FreeBSD, or Chrome OS users, we are left to figure it out on our own.
@@ -81,4 +82,4 @@ Also, **please don't abuse your connection** with torrents, as you never know wh
 
 ---
 
-Article translated in: [ES](https://d0z.me/es/pdanet-linux-freebsd-unix)
+Article translated in: [ES](https://d0z.me/es/pdanet-linux-freebsd-unix), [FR](https://d0z.me/fr/pdanet-linux-freebsd-unix), [DE](https://d0z.me/de/pdanet-linux-freebsd-unix), [PT](https://d0z.me/pt/pdanet-linux-freebsd-unix), JP
