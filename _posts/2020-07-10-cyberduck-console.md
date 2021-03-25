@@ -39,9 +39,10 @@ $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FE7097963FEFBE72
 
 
 And launch the commands:
-
-  $ sudo apt-get update
-  $ sudo apt-get install duck
+<pre>
+$ sudo apt-get update
+$ sudo apt-get install duck
+</pre>
 
 
 ## Common operations with cloud storage
@@ -107,6 +108,7 @@ Imagine that we have directory on the local machine with data which should be re
 Script:
 
 <pre>
+
 #!/bin/bash
 SWIFT_USERNAME=usernaem
 SWIFT PASSWORD=password to enter the repository
@@ -114,6 +116,7 @@ SWIFT_AUTH_URL=auth.domainname.com
 BACKUP_PATH=backup path
 LOCAL_PATH=folder on the local machine path
 $ duck --upload swift://$SWIFT_USERNAME@$SWIFT_AUTHURL/$BACKUP_PATH/ $LOCAL_PATH --existing rename --password $SWIFT_PASSWORD -q
+
 </pre>
 
 The clue --existing tells what to do with already existing files in the repository.
@@ -126,8 +129,7 @@ You can do differential backup by the Cyberduck as well. The following option is
 $ duck --upload swift://username@auth.selcdn.ru <full object path in the repository> < object path in the local machine > --existing compare -p <password>
 </pre>
 
-After execution of this command the program will compare the loaded backup with already available by the size, date of change and checksum. If something differs, the 
-previous version will be replaced by the current.
+After execution of this command the program will compare the loaded backup with already available by the size, date of change and checksum. If something differs, the previous version will be replaced by the current.
 
 In case of using the operation “skip" only new (the ones that appeared in the local machine folder after the last upload) files. Already existing files won't be upload even if the was changed.
 
@@ -169,8 +171,9 @@ This will be useful for the owners of static web sites, too. In order to update 
 ## Copying files
 
 In order to copy file from the one container to another use the following command:
+
 <pre>
-$ duck --сopy swift:// <username@auth.domain.com>/<full file path> <username@auth.selcdn.ru>/<new place of storing path>  -p <password>
+$ duck --сopy swift:// <username@auth.domain.com>/<full file path> <username@auth.cdn.com>/<new place of storing path>  -p <password>
 </pre>
 
 #### Option -v
