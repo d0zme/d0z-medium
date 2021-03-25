@@ -39,13 +39,13 @@ If you only need to use your web browser, simply set your proxy settings to **19
   Port: 8000
 </pre>
 
+And be sure to check **Use this proxy server for all protocols**
+
 **For Chromium or Chrome**, you will set the proxy via the command line:
 
 <pre>
 chromium-browser --proxy-server="192.168.49.1:8000"
 </pre>
-
-And be sure to check **Use this proxy server for all protocols**
 
 ## Using Apt-get (Apt) with PDAnet
 
